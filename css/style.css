@@ -52,7 +52,7 @@ img {
 }
 
 .header-wrap__logo .logo-sub {
-  font-size: clamp(0.75rem, 0.419rem + 1.1vw, 1.125rem);
+  font-size: clamp(1rem, 0.419rem + 1.1vw, 1.125rem);
 
   color: #c2b280;
   text-align: center;
@@ -70,13 +70,13 @@ img {
 }
 
 .header-wrap__con__sns i {
-  font-size: 1.56rem;
+  font-size: 1.75rem;
   margin-left: 0.62rem;
   color: #5a6a74;
 }
 
 .header-wrap__con__sns p {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .header-wrap__con__tel {
@@ -96,13 +96,13 @@ img {
 }
 
 .header-wrap__con__tel__txt p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #7b3b3b;
 }
 
 .header-wrap__con__tel__txt small {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #7b3b3b;
 }
@@ -113,9 +113,10 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #7b3b3b;
-  width: 49%;
+  width: 100%;
   height: 4.69rem;
   margin: 2.5rem 0;
+  padding: 0 2%;
 }
 
 .tel-btn__image {
@@ -135,7 +136,7 @@ img {
 
 .tel-btn__wrap small {
   color: #fff;
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
 }
 
 /* web-btn */
@@ -144,8 +145,9 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #5a6a74;
-  width: 49%;
+  width: 100%;
   height: 4.69rem;
+  padding: 0 2%;
 }
 .web-btn__image {
   width: clamp(1.5rem, 1.174rem + 1.09vw, 1.87rem);
@@ -155,13 +157,18 @@ img {
 
 .web-btn__wrap small {
   color: #fff;
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
 }
 
 .web-btn__wrap p {
   color: #fff;
   font-size: clamp(0.875rem, 0.654rem + 0.74vw, 1.125rem);
   margin-top: 5px;
+}
+
+.__btn2 {
+  width: 49%;
+  padding: 0;
 }
 
 /* ハンバーガーメニュー */
@@ -222,7 +229,7 @@ img {
   z-index: 999;
   top: 0;
   right: -120%;
-  width: 80%;
+  width: 50%;
   height: 100vh;
   background-color: #fff;
   transition: all 0.6s;
@@ -238,9 +245,12 @@ img {
   flex-direction: column;
 }
 
-#h-nav__list .tel-btn , #h-nav__list .web-btn {
+/* #h-nav__list .tel-btn , #h-nav__list .web-btn {
   width: 100%;
-}
+  padding-left: 3%;
+  padding-right: 3%;
+
+} */
 
 #h-nav li {
   position: relative;
@@ -253,7 +263,7 @@ img {
 
 #h-nav li a {
   display: block;
-  font-size: clamp(0.9rem, 0.773rem + 0.64vw, 1.25rem);
+  font-size: clamp(1rem, 0.773rem + 0.64vw, 1.25rem);
   font-weight: 700;
   color: #c2b280;
 }
@@ -283,7 +293,7 @@ img {
 }
 
 .top-wrap__ttl h1 span {
-  font-size: clamp(0.875rem, -0.007rem + 2.94vw, 1.875rem);
+  font-size: clamp(1rem, -0.007rem + 2.94vw, 1.875rem);
   color: #7b3b3b;
   background: linear-gradient(transparent 70%, #d1a3a4 30%);
   position: absolute;
@@ -341,9 +351,9 @@ img {
   background-color: #5a6a74;
   color: #fff;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 1.12rem;
   padding: 0.5rem;
-  border-radius: 25px;
+  border-radius: 50px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -353,11 +363,11 @@ img {
 }
 
 .floating-btn img {
-  width: 1.87rem;
-  height: 1.87rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-bottom: 0.62rem;
   transform: rotate(-180deg);
-  /* aspect-ratio: 1 / 1; */
+  aspect-ratio: 1 / 1;
 }
 
 /* worry */
@@ -369,7 +379,7 @@ img {
 }
 
 .worry-wrap__ttl {
-  font-size: clamp(0.875rem, 0.103rem + 2.57vw, 1.75rem);
+  font-size: clamp(1rem, 0.103rem + 2.57vw, 1.75rem);
   color: #a67c8c;
   text-align: center;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
@@ -404,7 +414,7 @@ img {
 }
 
 .worry-wrap__box__txt__list__item p {
-  font-size: clamp(0.875rem, 0.765rem + 0.37vw, 1rem);
+  font-size: clamp(1rem, 0.765rem + 0.37vw, 1rem);
 }
 
 /* contact1 */
@@ -451,7 +461,7 @@ img {
   width: 90%;
   text-align: center;
   margin: 0 auto;
-  font-size: clamp(0.875rem, 0.103rem + 2.57vw, 1.75rem);
+  font-size: clamp(1rem, 0.103rem + 2.57vw, 1.75rem);
   padding: 1.25rem;
 }
 
@@ -459,7 +469,7 @@ img {
   margin: 2.5rem auto;
   width: 90%;
   line-height: 1.5;
-  font-size: clamp(0.938rem, 0.772rem + 0.55vw, 1.125rem);
+  font-size: clamp(1rem, 0.772rem + 0.55vw, 1.125rem);
 }
 
 .contact1-wrap__box__txt b {
@@ -479,7 +489,7 @@ img {
 
 .contact1-wrap__box__con {
   position: absolute;
-  font-size: clamp(0.875rem, 0.654rem + 0.74vw, 1.125rem);
+  font-size: clamp(1rem, 0.654rem + 0.74vw, 1.125rem);
   font-weight: 700;
   background-color: #fff;
   padding: 1.25rem;
@@ -581,19 +591,19 @@ img {
 }
 
 .about-wrap__point__con__ttl {
-  font-size: clamp(0.875rem, 0.324rem + 1.84vw, 1.5rem);
+  font-size: clamp(1rem, 0.324rem + 1.84vw, 1.5rem);
   text-align: center;
 }
 
 .about-wrap__point__con__ttl span {
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
   font-weight: 500;
   color: #C2B280;
   margin-right: 0.93rem;
 }
 
 .about-wrap__point__con__ttl b {
-  font-size: 1.75rem;
+  font-size: clamp(1rem, 0.727rem + 1.36vw, 1.75rem);
   color: #7B3B3B;
 }
 
@@ -605,7 +615,7 @@ hr {
 }
 
 .about-wrap__point__con__sub-ttl {
-  font-size: clamp(0.875rem, 0.544rem + 1.1vw, 1.25rem);
+  font-size: clamp(1rem, 0.544rem + 1.1vw, 1.25rem);
   margin-bottom: 1.56rem;
   display: inline-block;
   position: relative;
@@ -633,7 +643,7 @@ hr {
 }
 
 .plan-wrap__txt {
-  font-size: clamp(0.75rem, 0.64rem + 0.37vw, 0.875rem);
+  font-size: clamp(1rem, 0.64rem + 0.37vw, 0.875rem);
   padding: 1.56rem 0;
   background-color: #D1A3A4;
   text-align: center;
@@ -650,7 +660,7 @@ hr {
 
 .plan-wrap__con__block__txt {
   text-align: center;
-  font-size: 0.87rem;
+  font-size: 1rem;
   margin-bottom: 1.56rem;
   line-height: 2;
 }
@@ -666,7 +676,7 @@ hr {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  font-size: clamp(0.75rem, 0.419rem + 1.1vw, 1.125rem);
+  font-size: clamp(1rem, 0.419rem + 1.1vw, 1.125rem);
   font-weight: 700;
   margin-bottom: 1.56rem;
   margin-left: 1.56rem;
@@ -727,7 +737,7 @@ hr {
 }
 
 .contact2-wrap__ttl {
-  font-size: 1.12rem;
+  font-size: clamp(1rem, 0.955rem + 0.23vw, 1.125rem);
   font-weight: 700;
   background-color: #fff;
   padding: 1.25rem;
@@ -769,7 +779,7 @@ hr {
   margin: 0 auto 1.56rem auto;
   border: solid 3px #D1A3A4;
   list-style: none;
-  font-size: clamp(0.625rem, 0.184rem + 1.47vw, 1.125rem);
+  font-size: clamp(1rem, 0.184rem + 1.47vw, 1.125rem);
   font-weight: 700;
   width: 70%;
 }
@@ -847,7 +857,7 @@ hr {
 }
 
 .contact3-wrap__txt {
-  font-size: clamp(0.875rem, 0.544rem + 1.1vw, 1.25rem);
+  font-size: clamp(1rem, 0.544rem + 1.1vw, 1.25rem);
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.56rem;
@@ -900,7 +910,7 @@ hr {
 .con-wrap__txt p {
   text-indent: -1em;
   padding-left: 1em;
-  font-size: 0.87rem;
+  font-size: 1rem;
 }
 
 .con-wrap__care {
@@ -909,7 +919,7 @@ hr {
 }
 
 .con-wrap__care p {
-  font-size: clamp(0.75rem, 0.64rem + 0.37vw, 0.875rem);
+  font-size: clamp(1rem, 0.64rem + 0.37vw, 0.875rem);
 }
 
 .con-wrap__care p span {
@@ -1041,6 +1051,15 @@ hr {
     display: none;
   }
 
+  #h-nav {
+    width: 100%;
+  }
+
+  #h-nav__list {
+    width: 90%;
+  }
+
+
   .floating-btn {
     display: none;
   }
@@ -1048,6 +1067,10 @@ hr {
   .top-wrap__box__list__item {
     width: 6.25rem;
     height: 6.25rem;
+  }
+
+  .contact1 .web-btn {
+    margin-bottom: 2.5rem;
   }
 
   .about-wrap__box__left {
@@ -1074,6 +1097,11 @@ hr {
 
 
 @media screen and (max-width: 480px) {
+  .__btn2 {
+    width: 80%;
+  }
+
+
   .top-wrap__box__list__item {
     width: 5rem;
     height: 5rem;
@@ -1104,14 +1132,6 @@ hr {
 .contact1-wrap__box__btn {
   display: flex;
   flex-direction: column;
-}
-
-.tel-btn {
-  width: 80%;
-}
-
-.web-btn {
-  width: 80%;
 }
 
 .about-wrap__box {
