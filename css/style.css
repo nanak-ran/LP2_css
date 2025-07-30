@@ -220,7 +220,7 @@ img {
 #h-nav {
   position: fixed;
   z-index: 999;
-  top: 130px;
+  top: 0;
   right: -120%;
   width: 80%;
   height: 100vh;
@@ -228,7 +228,7 @@ img {
   transition: all 0.6s;
 }
 
-#h-nav ul {
+#h-nav__list {
   position: absolute;
   z-index: 999;
   top: 50%;
@@ -236,6 +236,10 @@ img {
   transform: translateY(-50%) translateX(-50%);
   display: flex;
   flex-direction: column;
+}
+
+#h-nav__list .tel-btn , #h-nav__list .web-btn {
+  width: 100%;
 }
 
 #h-nav li {
