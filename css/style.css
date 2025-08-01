@@ -479,7 +479,7 @@ img {
   width: 80%;
   text-align: center;
   margin: 0 auto;
-  font-size: clamp(1.25rem, 0.588rem + 2.21vw, 2rem);
+  font-size: clamp(1.25rem, 1.029rem + 0.74vw, 1.5rem);
   padding: 1.25rem;
 }
 
@@ -679,7 +679,6 @@ hr {
   margin-bottom: 1.56rem;
 }
 
-
 .plan-wrap__con__block__txt {
   text-align: center;
   font-size: 1rem;
@@ -701,6 +700,10 @@ hr {
   font-weight: 700;
   margin-bottom: 1.56rem;
   margin-left: 1.56rem;
+}
+
+.course-menu i {
+  margin-right: 10px;
 }
 
 .course-menu p span {
@@ -760,6 +763,8 @@ hr {
   white-space: nowrap;
 }
 
+/* contact2 */
+
 .contact2 {
   background-color: rgba(209, 163, 164, 0.5);
   padding-top: 2.5rem;
@@ -769,6 +774,7 @@ hr {
 .contact2-wrap {
   max-width: 700px;
   margin: 0 auto;
+  padding-bottom: 2.5rem;
 }
 
 .contact2-wrap__ttl {
@@ -789,6 +795,8 @@ hr {
   width: 90%;
   margin: 0 auto;
 }
+
+/* faq */
 
 .faq {
   padding: 2.5rem 0;
@@ -855,6 +863,10 @@ hr {
   padding: 1.25rem 0 1.25rem 0.93rem;
 }
 
+.faq-wrap__body__list__item__ttl span {
+  margin-right: 5px;
+}
+
 .faq-wrap__body__list__item__ttl::after,
 .faq-wrap__body__list__item__ttl::before {
   content: "";
@@ -884,13 +896,15 @@ hr {
   line-height: 1.8;
 }
 
+/* contact3 */
+
 .contact3 {
   max-width: 700px;
   margin: 0 auto;
   background-color: #F9F6F1;
   padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
-
 
 .contact3-wrap__txt {
   font-size: clamp(1rem, 0.544rem + 1.1vw, 1.25rem);
@@ -917,7 +931,6 @@ hr {
 
 .con-wrap__ttl {
   text-align: center;
-  
 }
 
 .con-wrap__ttl h2 {
@@ -1078,6 +1091,8 @@ hr {
   font-size: 0.75rem;
 }
 
+
+
 /* レスポンシブ */
 
 @media screen and (min-width: 769px) {
@@ -1085,6 +1100,8 @@ hr {
     display: none;
   }
 }
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -1137,7 +1154,13 @@ hr {
   line-height: 1.5;
 }
 
+.faq-wrap__body__list__item__ttl {
+  display: flex;
+  line-height: 1.5;
+  
 }
+}
+
 
 
 
@@ -1154,7 +1177,6 @@ hr {
   #h-nav {
     width: 100%;
   }
-
 
   .top {
   background-position: -700px;
@@ -1174,8 +1196,6 @@ hr {
     border: solid 2px #fff;
   }
 
-  
-
 .worry-wrap__box {
   display: flex;
   flex-direction: column;
@@ -1191,8 +1211,6 @@ hr {
   padding-right: 15px;
 }
 
-
-
 .contact1-wrap__box__image {
   width: 100%;
 }
@@ -1202,8 +1220,6 @@ hr {
   padding: 5px;
   line-height: 1.5;
 }
-
-
 
 .contact1-wrap__box__btn {
   display: flex;
@@ -1272,7 +1288,6 @@ hr {
   width: 80%;
 }
 
-
 .contact2-wrap__box__btn .__btn2 {
   width: 80%;
 }
@@ -1281,7 +1296,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2.5rem;
 }
 
 .faq-wrap__body__list__item {
@@ -1293,10 +1307,5 @@ hr {
   margin: 0 auto;
   padding-bottom: 2.5rem;
 }
-
-
-
-
-
 
 }
