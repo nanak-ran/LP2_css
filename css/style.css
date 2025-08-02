@@ -1130,6 +1130,10 @@ hr {
     display: none;
   }
 
+  .top {
+  background-position: -600px;
+}
+
   .top-wrap__ttl {
     top: 45%;
   }
@@ -1193,11 +1197,15 @@ hr {
   }
 
   .top {
-  background-position: -450px;
+  background-position: -480px;
 }
 
 .top-wrap__ttl {
   top: 50%;
+}
+
+.top-wrap__box {
+  top: 70%;
 }
 
 .top-wrap__box__list__item {
